@@ -1,4 +1,5 @@
 #copied from the wiki
+git sync
 git clone https://github.com/ghc/ghc.git
 cd ghc
 ./sync-all get
@@ -63,3 +64,26 @@ make
 sudo mkdir -p /usr/local/ghc-iphone/
 sudo chown $USER /usr/local/ghc-iphone/
 make install
+
+#build cabal
+cd libraries/Cabal/Cabal
+cabal install
+cd ../cabal-install
+cabal install
+
+#cp cabal
+cp /Users/$USER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
+
+#get the OpenGL library to build the testapp
+cd ../../TestApp
+. ./env.sh
+cabal install OpenGL
+#build the haskell library
+arm-apple-darwin10-ghc -threaded haskell.hs
+
+
+
+
+
+
+

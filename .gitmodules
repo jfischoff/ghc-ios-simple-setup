@@ -1,0 +1,3 @@
+[submodule "TestApp"]
+	path = TestApp
+	url = git@github.com:ghc-ios/TestApp.git
