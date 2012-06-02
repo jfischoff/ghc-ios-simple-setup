@@ -72,14 +72,23 @@ cd ../cabal-install
 cabal install
 
 #cp cabal
-cp /Users/$USER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
+sudo cp /Users/$USER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
 
 #get the OpenGL library to build the testapp
-cd ../../TestApp
+cd ../../../TestApp
 . ./env.sh
 cabal install OpenGL
 #build the haskell library
+sudo chmod 666 haskell_stub.hs
 arm-apple-darwin10-ghc -threaded haskell.hs
+
+
+
+
+
+
+
+
 
 
 

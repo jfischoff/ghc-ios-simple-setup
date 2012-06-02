@@ -9,5 +9,10 @@ cd ghc-ios-simple-setup
 chmod +x install.sh
 sudo ./install.sh   
 ```
-
-For instruction on use see https://github.com/ghc-ios/ghc/wiki
+This should build a library called haskell.a in the ghc-ios-simple-setup/TestApp directory.   
+  
+Open the ghc-ios-simple-setup/TestApp/TestApp.xcodeproj and build the project using a scheme for an iOS device.   
+  
+Your done!  
+  
+For a more detailed explaination of the building process (what install.sh is actually doing) see https://github.com/ghc-ios/ghc/wiki
