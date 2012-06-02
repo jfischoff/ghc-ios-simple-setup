@@ -1,0 +1,333 @@
+TTestApp
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Info.plist TestApp-Info.plist
+cCpResource Shaders/Shader.fsh build/Debug-iphonesimulator/TestApp.app/Shader.fsh
+cCpResource Shaders/Shader.vsh build/Debug-iphonesimulator/TestApp.app/Shader.vsh
+cCompileXIB /Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib
+cCompileXIB /Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib
+cProcessPCH /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o /Users/jonathan.fischoff/Downloads/TestApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F7C8C640000000000353830
+t1333562468
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F7C8C640000000000001534
+t1333562468
+s5428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004F7C8C67000000000001D2E0
+t1333562471
+s119520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F7C8C6700000000001AB190
+t1333562471
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F7C8C670000000000000BF5
+t1333562471
+s3061
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F7C8C680000000000905E40
+t1333562472
+s9461312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/Availability.h
+c000000004F7C8C860000000000001B57
+t1333562502
+s6999
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libdl.dylib
+c000000004F7C8C89000000000002E9C0
+t1333562505
+s190912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libiconv.dylib
+c000000004F7C8C8900000000000FCF50
+t1333562505
+s1036112
+
+N/Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m
+c000000004F85611E0000000000000EED
+t1334141214
+s3821
+
+N/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m
+c000000004F85611E00000000000004BA
+t1334141214
+s1210
+
+N/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m
+c000000004FB4147E0000000000000DD2
+t1337201790
+s3538
+
+N/Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib
+c000000004F85611F000000000000551A
+t1334141215
+s21786
+
+N/Users/jonathan.fischoff/Downloads/TestApp/Shaders/Shader.fsh
+c000000004F85611F00000000000000E1
+t1334141215
+s225
+
+N/Users/jonathan.fischoff/Downloads/TestApp/Shaders/Shader.vsh
+c000000004F85611F0000000000000167
+t1334141215
+s359
+
+N/Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib
+c000000004F85611F00000000000043F1
+t1334141215
+s17393
+
+N/Users/jonathan.fischoff/Downloads/TestApp/TestApp_Prefix.pch
+c000000004F85611F0000000000000138
+t1334141215
+s312
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app.dSYM
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Info.plist
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/MainWindow.nib
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/PkgInfo
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Shader.fsh
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Shader.vsh
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestAppViewController.nib
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestApp.LinkFileList
+c000000004FC2F494000000000000021B
+t1338176660
+s539
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/haskell.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jonathan.fischoff/Downloads/TestApp/main.m
+c000000004FB342810000000000000217
+t1337148033
+s535
+
+N/var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth
+t2
+s0
+
+NTestApp-Info.plist
+c000000004F85611F00000000000003B4
+t1334141215
+s948
+
+CBuild AST from /Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m
+r0
+
+CBuild AST from /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m
+r0
+
+CBuild AST from /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m
+r0
+
+CBuild AST from /Users/jonathan.fischoff/Downloads/TestApp/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies679896142c73b541^dffa9c142c73b541^---0#1#0#--18"Check dependencies36"86AA3C37-0F4E-4176-A1E8-0DA36478DF08-
+
+CCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359869461.742009
+e359869462.065437
+r1
+xCompileC
+xbuild/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o
+x/Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m280cbe152c73b541^9cc010162c73b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m0000000000000000^3283"CompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o Classes/EAGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-generated-files.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-own-target-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-project-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/include -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources/i386 -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -include /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch -MMD -MT dependencies -MF /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.d --serialize-diagnostics /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.dia -c /Users/jonathan.fischoff/Downloads/TestApp/Classes/EAGLView.m -o /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/EAGLView.o36"6EF30BA0-6E73-4834-860F-828642ACF13A-
+
+CCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359869461.741990
+e359869462.065557
+r1
+xCompileC
+xbuild/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o
+x/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.md90abe152c73b541^68d010162c73b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m0000000000000000^3343"CompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o Classes/TestAppAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-generated-files.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-own-target-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-project-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/include -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources/i386 -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -include /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch -MMD -MT dependencies -MF /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.d --serialize-diagnostics /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.dia -c /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppAppDelegate.m -o /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppAppDelegate.o36"CE9FCC6D-65D3-4EB2-96C0-EF4E1E2D7EFB-
+
+CCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359869461.742021
+e359869462.065549
+r1
+xCompileC
+xbuild/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o
+x/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m:40:9: warning: instance method '-loadShaders' not found (return type defaults to 'id')
+o        [self loadShaders];
+o        ^~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m1e16be152c73b541^92ca10162c73b541^-238"/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m:40:9: warning: instance method '-loadShaders' not found (return type defaults to 'id')        [self loadShaders];        ^~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@71"Instance method '-loadShaders' not found (return type defaults to 'id')-359869462#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m0000000000000000^39#8#39#8#1080#0#14"Semantic Issue1(3@90"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m0000000000000000^39#8#39#26#1080#17#-0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m0000000000000000^3361"CompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o Classes/TestAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-generated-files.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-own-target-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-project-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/include -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources/i386 -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -include /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch -MMD -MT dependencies -MF /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.d --serialize-diagnostics /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.dia -c /Users/jonathan.fischoff/Downloads/TestApp/Classes/TestAppViewController.m -o /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestAppViewController.o36"5DE7D085-53BA-4608-AD58-2809BF0ACA7C-
+
+CCompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o /Users/jonathan.fischoff/Downloads/TestApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359869461.742001
+e359869462.064685
+r1
+xCompileC
+xbuild/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o
+x/Users/jonathan.fischoff/Downloads/TestApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/jonathan.fischoff/Downloads/TestApp/main.m6b0cbe152c73b541^758f10162c73b541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/main.m0000000000000000^3243"CompileC build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-generated-files.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-own-target-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-project-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/include -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources/i386 -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -include /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch -MMD -MT dependencies -MF /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.dia -c /Users/jonathan.fischoff/Downloads/TestApp/main.m -o /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/main.o36"53338680-ED69-4748-9055-D931E52284D8-
+
+CCompileXIB /Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib
+s359869460.659838
+e359869461.249430
+r1
+xCompileXIB
+x/Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compiling /Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xibd028a9142c73b541^5edb3f152c73b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib0000000000000000^826"CompileXIB MainWindow.xib    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/MainWindow.nib /Users/jonathan.fischoff/Downloads/TestApp/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"2E160B8E-1989-4D15-9D7C-B61631E96FC2-
+
+CCompileXIB /Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib
+s359869460.659848
+e359869461.099385
+r1
+xCompileXIB
+x/Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xiba62aa9142c73b541^367219152c73b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib0000000000000000^859"CompileXIB TestAppViewController.xib    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestAppViewController.nib /Users/jonathan.fischoff/Downloads/TestApp/TestAppViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"C51AFE38-FDB5-413A-A4B0-D69A9412A456-
+
+CCpResource Shaders/Shader.fsh build/Debug-iphonesimulator/TestApp.app/Shader.fsh
+s359869460.659808
+e359869460.687328
+r1
+xCpResource
+xShaders/Shader.fsh
+xbuild/Debug-iphonesimulator/TestApp.app/Shader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TestApp.app/Shader.fshc6fca8142c73b541^98fcaf142c73b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Shader.fsh000000000080d041^688"CpResource Shaders/Shader.fsh build/Debug-iphonesimulator/TestApp.app/Shader.fsh    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jonathan.fischoff/Downloads/TestApp/Shaders/Shader.fsh /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app36"D79148FA-7AE5-4F29-B47B-E35A42B8EC04-
+
+CCpResource Shaders/Shader.vsh build/Debug-iphonesimulator/TestApp.app/Shader.vsh
+s359869460.659826
+e359869460.663640
+r1
+xCpResource
+xShaders/Shader.vsh
+xbuild/Debug-iphonesimulator/TestApp.app/Shader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TestApp.app/Shader.vsh1afda8142c73b541^f7e4a9142c73b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Shader.vsh000000000080d041^688"CpResource Shaders/Shader.vsh build/Debug-iphonesimulator/TestApp.app/Shader.vsh    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jonathan.fischoff/Downloads/TestApp/Shaders/Shader.vsh /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app36"61862C1B-1FD4-4C4D-9D82-0B87C12E7A89-
+
+CGenerateDSYMFile /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app.dSYM /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp
+r0
+
+CLd /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp normal i386
+s359869462.072848
+e359869462.082026
+r0
+xLd
+x/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp
+xnormal
+xi386
+oclang: error: no such file or directory: '/Users/jonathan.fischoff/Downloads/TestApp/haskell.a'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp82c412162c73b541^c6fc14162c73b541^-96"clang: error: no such file or directory: '/Users/jonathan.fischoff/Downloads/TestApp/haskell.a'1(21%IDEActivityLogMessage2@81"No such file or directory: '/Users/jonathan.fischoff/Downloads/TestApp/haskell.a'-359869462#0#96#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1299"Ld build/Debug-iphonesimulator/TestApp.app/TestApp normal i386    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -L/Users/jonathan.fischoff/Downloads/TestApp -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator -filelist /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/Objects-normal/i386/TestApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -ldl -liconv -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore /Users/jonathan.fischoff/Downloads/TestApp/haskell.a -o /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/TestApp36"BA9AC231-1CDA-4F7B-9528-3198058CE383-
+
+CProcessInfoPlistFile /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Info.plist TestApp-Info.plist
+s359869460.630312
+e359869460.651261
+r1
+xProcessInfoPlistFile
+x/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Info.plist
+xTestApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process TestApp-Info.plist9a93a3142c73b541^5eb9a6142c73b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/TestApp-Info.plist0000000000000000^646"ProcessInfoPlistFile build/Debug-iphonesimulator/TestApp.app/Info.plist TestApp-Info.plist    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestApp-Info.plist -genpkginfo /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app/Info.plist36"EA20CB9B-5E47-4ED4-9A5F-624ADAD3689A-
+
+CProcessPCH /Users/jonathan.fischoff/Downloads/TestApp/DerivedData/TestApp/Index/PrecompiledHeaders/TestApp_Prefix-dqyuteqbdwyfrccckxbaryqvxydp_ast/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359869461.258029
+e359869461.734490
+r1
+xProcessPCH
+x/var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth
+xTestApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile TestApp_Prefix.pch5f2642152c73b541^7907bc152c73b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/jonathan.fischoff/Downloads/TestApp/TestApp_Prefix.pch0000000000000000^3307"ProcessPCH /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jonathan.fischoff/Downloads/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-generated-files.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-own-target-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/TestApp-project-headers.hmap -I/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/include -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources/i386 -I/Users/jonathan.fischoff/Downloads/TestApp/build/TestApp.build/Debug-iphonesimulator/TestApp.build/DerivedSources -F/Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.dia -c /Users/jonathan.fischoff/Downloads/TestApp/TestApp_Prefix.pch -o /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/23/l358jghn48994z8cvtlgrpl48fccn2/C/com.apple.Xcode.283521698/SharedPrecompiledHeaders/TestApp_Prefix-dbrmjydpwuirrsddnfbaccbemlfr/TestApp_Prefix.pch.d36"B7F2526C-8203-4850-952C-4A882E570013-
+
+CTouch /Users/jonathan.fischoff/Downloads/TestApp/build/Debug-iphonesimulator/TestApp.app
+r0
+
