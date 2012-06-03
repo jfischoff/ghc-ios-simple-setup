@@ -72,7 +72,7 @@ cd ../cabal-install
 cabal install --bindir=/usr/local/ghc-iphone/bin
 
 #get the OpenGL library to build the testapp
-cd ../../../TestApp
+cd ../../../../TestApp
 . ./env.sh
 cabal install OpenGL
 #build the haskell library
