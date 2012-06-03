@@ -1,5 +1,5 @@
 #copied from the wiki
-git sync
+git submodule update --init --recursive
 git clone https://github.com/ghc/ghc.git
 cd ghc
 ./sync-all get
@@ -62,7 +62,7 @@ perl boot
 #Make & install:
 make
 sudo mkdir -p /usr/local/ghc-iphone/bin
-sudo chown $USER /usr/local/ghc-iphone/
+sudo chown $SUDO_USER /usr/local/ghc-iphone/
 make install
 
 #build cabal
