@@ -61,7 +61,7 @@ perl boot
 
 #Make & install:
 make
-sudo mkdir -p /usr/local/ghc-iphone/
+sudo mkdir -p /usr/local/ghc-iphone/bin
 sudo chown $USER /usr/local/ghc-iphone/
 make install
 
@@ -69,10 +69,7 @@ make install
 cd libraries/Cabal/Cabal
 cabal install
 cd ../cabal-install
-cabal install
-
-#cp cabal
-sudo cp /Users/$USER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
+cabal install --bindir=/usr/local/ghc-iphone/bin
 
 #get the OpenGL library to build the testapp
 cd ../../../TestApp
@@ -81,18 +78,3 @@ cabal install OpenGL
 #build the haskell library
 sudo chmod 666 haskell_stub.hs
 arm-apple-darwin10-ghc -threaded haskell.hs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
