@@ -72,10 +72,11 @@ cd ../cabal-install
 cabal install
 
 #cp cabal
-sudo cp /Users/$USER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
+set OLDUSER = $USER
+sudo cp /Users/$OLDUSER/Library/Haskell/ghc-7.4.1/lib/cabal-install-0.15.0/bin/cabal /usr/local/ghc-iphone/bin/
 
 #get the OpenGL library to build the testapp
-cd ../../../TestApp
+cd ../../../../TestApp
 . ./env.sh
 cabal install OpenGL
 #build the haskell library
