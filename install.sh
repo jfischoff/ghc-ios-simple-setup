@@ -1,42 +1,42 @@
 #copied from the wiki
 git submodule update --init --recursive
-git clone https://github.com/ghc/ghc.git
+git clone https://github.com/ghc-ios/ghc.git
 cd ghc
 ./sync-all get
 
 #Check out the ios branch of each of the GHC iOS forks. 
 #If you have read+write access, use https://$USER@github.com in each URL. Start with ghc:
-git remote add ghc-ios https://github.com/ghc-ios/ghc.git
-git fetch ghc-ios
-git checkout -t ghc-ios/ios
+#git remote add ghc-ios https://github.com/ghc-ios/ghc.git
+#git fetch ghc-ios
+git checkout ios
 
 #Next, the base package:
 cd libraries/base
-git remote add ghc-ios https://github.com/ghc-ios/packages-base.git
-git fetch ghc-ios
-git checkout -t ghc-ios/ios
+#git remote add ghc-ios https://github.com/ghc-ios/packages-base.git
+#git fetch ghc-ios
+git checkout ios
 cd ../..
 
 #Next, the unix package:
 cd libraries/unix
-git remote add ghc-ios https://github.com/ghc-ios/packages-unix.git
-git fetch ghc-ios
-git checkout -t ghc-ios/ios
+#git remote add ghc-ios https://github.com/ghc-ios/packages-unix.git
+#git fetch ghc-ios
+git checkout ios
 cd ../..
 
 #Next, the Cabal package:
 cd libraries/Cabal
-git remote add ghc-ios https://github.com/ghc-ios/packages-Cabal.git
-git fetch ghc-ios
-git checkout -t ghc-ios/ios
+#git remote add ghc-ios https://github.com/ghc-ios/packages-Cabal.git
+#git fetch ghc-ios
+git checkout ios
 
 cd ../..
 
 #Finally, hsc2hs:
 cd utils/hsc2hs
-git remote add ghc-ios https://github.com/ghc-ios/hsc2hs.git
-git fetch ghc-ios
-git checkout -t ghc-ios/ios
+#git remote add ghc-ios https://github.com/ghc-ios/hsc2hs.git
+#git fetch ghc-ios
+git checkout ios
 cd ../..
 
 #Add a build configuration file:
